@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title> Js + Rails as Api</title>
+    <link href="stylesheets/index.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body id="top">
+<div id="main">
+    <nav class="navbar">
+        <div class="navbar-list">
+            <a class="navbar-link" href="#stock-form-section" id="new-stock">Add Stock</a>
+            <a class="navbar-link" href="#portfolio-section" id="portfolio">View Portfolio</a>
+        </div>
+    </nav>
+    <div class="section" id="new-form-section">
+
+    </div>
+    <div class="section" id="s_portfolio_data">
+    </div>
+
+    <div class="section" id="stockSection">
+
+    </div>
+    <div id="flash">
+
+    </div>
+</div>
+<script src="javascripts/global.js"></script>
+<script src="javascripts/hero.js"></script>
+<script src="javascripts/models/portfolio.js"></script>
+<script src="javascripts/models/stock.js"></script>
+<script src="javascripts/services/portfoliosApi.js"></script>
+<script src="javascripts/services/stockApi.js"></script>
+<!-- <script src="javascripts/services/productApi.js"></script> -->
+<script src="javascripts/index.js"></script>
+</body>
+</html>
